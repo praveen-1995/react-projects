@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* NavHeader */}
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} alt="logo" />
+          <img className="logo" src={logo} alt="logo" />
           <button
             type="button"
             className="nav-toggle"
